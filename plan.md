@@ -1,8 +1,9 @@
-# Plan: prj-5372-task-mugvd6is
+# Plan: task-mugvd6is
 
 **Project:** `PRJ-4245`  
 **Task ID:** `task-mugvd6is`  
 **Repo:** `prj-5372-task-mugvd6is`  
+**Progress:** 1/2 subtasks done
 
 ## Summary
 
@@ -10,20 +11,18 @@
 
 ## Subtasks
 
-### 1. Smoke-check репозитория
+### ❌ 1. Smoke-check репозитория
 
 - **ID:** `sub-1`
 - **Profile:** `20razrab1`
-- **Tester:** `TBD`
-- **Status:** `pending`
+- **Status:** `failed`
 - **Description:** Проверить что репозиторий prj-5372-task-mugvd6is существует и доступен; убедиться что origin/main клонируется без ошибок.
 - **Test plan:** git clone https://github.com/ZhenyaRUS39/prj-5372-task-mugvd6is /tmp/prj-5372-task-mugvd6is завершается с exit_code=0; git -C /tmp/prj-5372-task-mugvd6is log -1 выводит хотя бы один коммит.
 
-### 2. Верификация структуры задачи
+### ⬜ 2. Верификация структуры задачи
 
 - **ID:** `sub-2`
 - **Profile:** `30razrab2`
-- **Tester:** `TBD`
 - **Status:** `pending`
 - **Description:** Подтвердить что в репозитории есть минимальный набор артефактов задачи (README или пустой коммит-инициализатор) и вернуть diff+summary в Human.
 - **Test plan:** В выводе sub-2 присутствуют: путь к репозиторию, head-commit SHA, перечень файлов верхнего уровня (ls -la).
