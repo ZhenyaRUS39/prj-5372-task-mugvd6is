@@ -11,11 +11,11 @@
 
 ## Subtasks
 
-### ⏳ 1. Smoke-check репозитория
+### ❌ 1. Smoke-check репозитория
 
 - **ID:** `sub-1`
 - **Profile:** `20razrab1`
-- **Status:** `unknown`
+- **Status:** `failed`
 - **Description:** Проверить что репозиторий prj-5372-task-mugvd6is существует и доступен; убедиться что origin/main клонируется без ошибок.
 - **Test plan:** git clone https://github.com/ZhenyaRUS39/prj-5372-task-mugvd6is /tmp/prj-5372-task-mugvd6is завершается с exit_code=0; git -C /tmp/prj-5372-task-mugvd6is log -1 выводит хотя бы один коммит.
 
